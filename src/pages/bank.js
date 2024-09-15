@@ -1,6 +1,7 @@
 import React from 'react'
 import About from '../components/about';
 import Banner from '../components/banner';
+import Faq from '../components/faq';
 import LogoSlider from '../components/logoSlider';
 import Navbar from '../components/navbar';
 import Testimonial from '../components/testimonial';
@@ -14,6 +15,7 @@ const Bank = () => {
         <About/>
         <LogoSlider/>
         <Testimonial/>
+        <Faq/>
     </div>
   );
 };
