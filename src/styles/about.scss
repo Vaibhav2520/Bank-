@@ -4,14 +4,17 @@
     display: flex;
     justify-content: space-evenly;
     border-radius: 32px;
+    padding: 32px;
     .years{
         color: white;
         font-size: 48px;
         font-family: "M PLUS 1", system-ui;
+        font-weight: 700;
     }
     .experience{
         color: #2BB32A;
         font-size: 16px;
         font-family: "M PLUS 1", system-ui;
+        font-weight: 500;
     }
 }
