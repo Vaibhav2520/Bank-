@@ -1,0 +1,71 @@
+.banner-container{
+    margin-top: 100px;
+    .creditcard{
+        position: absolute;
+        height: 54%;
+        right: 0em;
+        top: 11em;
+    }
+    .heading{
+        color: white;
+        text-align: left;
+        line-height: 64px;
+        letter-spacing: -2.5%;
+        font-weight: 500;
+        font-size: 56px;
+        font-family: "M PLUS 1", system-ui;
+    }
+    .sub-heading{
+        
+        color: #ADB2B1;
+        text-align: left;
+        font-size: 18px;
+        line-height: 24px;
+        margin-top: 30px;
+        font-family: "M PLUS 1", system-ui;
+    }
+    .get-started{
+        color: white;
+        background-color: #2BB32A;
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        border: 2px solid #2BB32A;
+        padding: 12px;
+        width: 130px;
+        border-radius: 64px;
+        font-family: "M PLUS 1", system-ui;
+        .arrow{
+            margin-left: 5px;
+            
+        }
+    }
+    .users{
+        display: flex;
+        .icons{
+            display: flex;
+            margin-top: 30px;
+            border-radius: 64px;
+        }
+        .content{
+            margin-top: 30px;
+            margin-left: 10px;
+            text-align: left;
+            color: white;
+            .numberofusers{
+                font-size: 16px;
+                font-family: "M PLUS 1", system-ui;
+            }
+            .sub-content{
+                font-size: 12px;
+                font-family: "M PLUS 1", system-ui;
+            }
+        }
+    }
+    .vector{
+        top: 15.8em;
+        left: 4em;
+        position: absolute;
+        z-index: 2;
+    }
+}

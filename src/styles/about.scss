@@ -1,0 +1,17 @@
+.about-container{
+    margin-top: 100px;
+    background-color: #3D544D;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 32px;
+    .years{
+        color: white;
+        font-size: 48px;
+        font-family: "M PLUS 1", system-ui;
+    }
+    .experience{
+        color: #2BB32A;
+        font-size: 16px;
+        font-family: "M PLUS 1", system-ui;
+    }
+}
