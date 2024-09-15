@@ -66,7 +66,7 @@ const Faq = () => {
         </div>
       </div>
       <Divider className="divider"/>
-      <div className="accordian-one">
+      <div className="accordian-two">
         <div className="accordian-section">
           <Typography className="sub-heading">
           Is my credit card information secure?

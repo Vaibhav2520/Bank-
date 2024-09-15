@@ -1,0 +1,53 @@
+.footer-contianer{
+    background-color: #283430;
+    padding: 50px 70px 50px 70px;
+    display: flex;
+  
+    .footer-left{
+        display: flex;
+        flex-direction: column;
+        .main-heading{
+            display: flex;
+            .heading{
+                margin-left: 5px;
+                color: white;
+                font-size: 16px;
+                font-weight: 700;
+                font-family: "M PLUS 1", system-ui;
+            }
+        }
+        .content{
+            text-align: left;
+            color: #ADB2B1;
+            font-size: 12px;
+            font-family: "M PLUS 1", system-ui;
+        }
+    }
+    .footer-right{
+        display: flex;
+        width: 100%;
+        justify-content: space-evenly;
+        color: white;
+        .about-us{
+            font-size: 16px;
+            margin-bottom: 15px;
+            font-weight: 700;
+        }
+        .color{
+            color: #ADB2B1;
+            font-size: 16px;
+          
+        }
+    }
+}
+.footer-bottom{
+    background-color: #283430;
+    padding: 0px 70px 0px 70px;
+    display: flex;
+    justify-content: space-between;
+    color: #ADB2B1;
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+
+}

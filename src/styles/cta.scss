@@ -1,0 +1,32 @@
+.cta-container {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    .cta-content {
+        display: flex;
+        flex-direction: column;
+        .content {
+            text-align: left;
+            font-size: 48px;
+            color: white;
+            font-weight: 700;
+            font-family: "M PLUS 1", system-ui;
+        }
+        .sub-content {
+            margin-top: 20px;
+            text-align: left;
+            color: #adb2b1;
+            font-family: "M PLUS 1", system-ui;
+        }
+    }
+    .social{
+        display: flex;
+        margin-top: 20px;
+        .playstore{
+            margin-left: 20px;
+        }
+    }
+    .image {
+
+    }
+}
